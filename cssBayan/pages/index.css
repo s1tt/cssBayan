@@ -4,9 +4,9 @@
 @import url('../blocks/center/center.css');
 
 @import url('../blocks/bayan/bayan.css');
-@import url('../blocks/bayan/__details/bayan__details.css');
-@import url('../blocks/bayan/__summary/bayan__summary.css');
 @import url('../blocks/bayan/__title/bayan__title.css');
-@import url('../blocks/bayan/__image/bayan__image.css');
-@import url('../blocks/bayan/__meme-title/bayan__meme-title.css');
-@import url('../blocks/bayan/__details-close-ico/bayan__details-close-ico.css');
+@import url('../blocks/bayan/__item/bayan__item.css');
+@import url('../blocks/bayan/__item-title/bayan__item-title.css');
+@import url('../blocks/bayan/__item-image/bayan__item-image.css');
+@import url('../blocks/bayan/__item-content/bayan__item-content.css');
+@import url('../blocks/bayan/__item-checkbox/bayan__checkbox.css');

@@ -1,0 +1,11 @@
+.bayan__details {
+  color: blue;
+}
+
+.bayan__details[open] {
+  color: black;
+}
+
+.bayan__details[open] .bayan__summary .bayan__details-close-ico {
+  transform: rotate(90deg);
+}

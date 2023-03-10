@@ -1,5 +1,6 @@
 @import url('../vendor/normalize.css');
 @import url('../vendor/fonts/fonts.css');
+@import url('../blocks/page/page.css');
 @import url('../blocks/center/center.css');
 
 @import url('../blocks/bayan/bayan.css');
@@ -7,3 +8,5 @@
 @import url('../blocks/bayan/__summary/bayan__summary.css');
 @import url('../blocks/bayan/__title/bayan__title.css');
 @import url('../blocks/bayan/__image/bayan__image.css');
+@import url('../blocks/bayan/__meme-title/bayan__meme-title.css');
+@import url('../blocks/bayan/__details-close-ico/bayan__details-close-ico.css');

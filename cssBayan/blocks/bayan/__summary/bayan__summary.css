@@ -1,0 +1,6 @@
+.bayan__summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 0.1em solid rgba(0, 0, 0, 0.5);
+}

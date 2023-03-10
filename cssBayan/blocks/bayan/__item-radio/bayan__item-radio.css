@@ -1,17 +1,25 @@
 .bayan__item-radio {
-  visibility: hidden;
-  opacity: 0;
+  display: none;
 }
 
 .bayan__item-radio:checked ~ .bayan__item-content {
   visibility: visible;
   opacity: 1;
   max-height: 100vh;
-  transition: max-height 0.5s;
+  transition: max-height 0.2s;
+  padding: 15px 0;
+}
+
+.bayan__item-radio:checked ~ .bayan__item-title {
+  color: black;
 }
 
 .bayan__item-radio:checked ~ .bayan__item-content > * {
-  max-width: 50vw;
-  max-height: 50vh;
+  max-width: 65vw;
+  max-height: 100%;
   transition: all 0.5s;
+}
+
+.bayan__item-radio:checked ~ .bayan__item-title .bayan__item-close-ico {
+  transform: rotate(90deg);
 }

@@ -4,5 +4,14 @@
 }
 
 .bayan__item-radio:checked ~ .bayan__item-content {
-  display: block;
+  visibility: visible;
+  opacity: 1;
+  max-height: 100vh;
+  transition: max-height 0.5s;
+}
+
+.bayan__item-radio:checked ~ .bayan__item-content > * {
+  max-width: 50vw;
+  max-height: 50vh;
+  transition: all 0.5s;
 }

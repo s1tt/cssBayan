@@ -4,5 +4,6 @@
   max-height: 0;
   display: flex;
   justify-content: center;
-  transition: max-height 0.5s;
+  transition: all 0.5s;
+  /* margin: 15px 0; */
 }

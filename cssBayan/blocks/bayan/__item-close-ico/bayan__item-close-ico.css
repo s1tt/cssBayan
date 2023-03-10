@@ -1,0 +1,4 @@
+.bayan__item-close-ico {
+  transform: rotate(45deg);
+  transition: transform 0.5s;
+}

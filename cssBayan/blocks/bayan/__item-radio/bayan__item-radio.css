@@ -1,0 +1,8 @@
+.bayan__item-radio {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.bayan__item-radio:checked ~ .bayan__item-content {
+  display: block;
+}

@@ -1,3 +1,8 @@
 .bayan__item-content {
-  display: none;
+  opacity: 0;
+  visibility: hidden;
+  max-height: 0;
+  display: flex;
+  justify-content: center;
+  transition: max-height 0.5s;
 }

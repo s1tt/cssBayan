@@ -2,3 +2,9 @@
   font-family: Inter, Arial, Helvetica, sans-serif;
   max-width: 80vw;
 }
+
+@media screen and (min-width: 984px) {
+  .bayan:hover .bayan__item-title-close-ico {
+    opacity: 1;
+  }
+}

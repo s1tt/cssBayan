@@ -1,21 +1,5 @@
 .bayan__item-title {
   display: flex;
-  font-size: 1rem;
   justify-content: space-between;
   align-items: center;
-  padding: 0.6rem 0;
-  cursor: pointer;
-  color: #6600ff;
-}
-
-@media screen and (min-width: 568px) and (max-width: 984px) {
-  .bayan__item-title {
-    font-size: 1.6rem;
-  }
-}
-
-@media screen and (min-width: 984px) {
-  .bayan__item-title {
-    font-size: 2.5rem;
-  }
 }

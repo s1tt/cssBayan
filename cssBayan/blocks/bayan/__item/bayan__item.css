@@ -4,6 +4,10 @@
   border-top: 0.1rem solid rgba(0, 0, 0, 0.5);
 }
 
+.bayan__item:active .bayan__item-title-text {
+  color: #6600ff;
+}
+
 @media screen and (min-width: 984px) {
   .bayan__item:hover .bayan__item-image {
     max-width: 25vw;

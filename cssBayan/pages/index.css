@@ -1,6 +1,9 @@
 @import url('../vendor/normalize.css');
+
 @import url('../vendor/fonts/fonts.css');
+
 @import url('../blocks/page/page.css');
+
 @import url('../blocks/center/center.css');
 
 @import url('../blocks/bayan/bayan.css');
@@ -8,7 +11,6 @@
 @import url('../blocks/bayan/__item/bayan__item.css');
 @import url('../blocks/bayan/__item-title/bayan__item-title.css');
 @import url('../blocks/bayan/__item-image/bayan__item-image.css');
-@import url('../blocks/bayan/__item-content/bayan__item-content.css');
 @import url('../blocks/bayan/__item-radio/bayan__item-radio.css');
 @import url('../blocks/bayan/__item-title-close-ico/bayan__item-title-close-ico.css');
 @import url('../blocks/bayan/__item-title-text/bayan__item-title-text.css');

@@ -3,10 +3,9 @@
 }
 
 .bayan__item-radio:checked ~ .bayan__item-image {
-  max-width: 65vw;
-  max-height: 100%;
-  transition: all 0.5s;
-  padding: 1rem 0;
+  width: 25vw;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .bayan__item-radio:checked ~ .bayan__item-title .bayan__item-title-text {
@@ -15,10 +14,4 @@
 
 .bayan__item-radio:checked ~ .bayan__item-title .bayan__item-title-close-ico {
   transform: rotate(90deg);
-}
-
-@media screen and (min-width: 984px) {
-  .bayan__item-radio:checked ~ .bayan__item-image {
-    max-width: 25vw;
-  }
 }

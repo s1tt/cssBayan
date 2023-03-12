@@ -4,6 +4,10 @@
   transition: all 0.5s;
 }
 
+.bayan__item:active {
+  cursor: url(../../../images/Cursor.png), auto;
+}
+
 .bayan__item:active .bayan__item-title-text {
   color: #0000bb;
 }

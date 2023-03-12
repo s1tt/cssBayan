@@ -1,0 +1,29 @@
+.bayan__item {
+  cursor: pointer;
+  display: block;
+  transition: all 0.5s;
+}
+
+.bayan__item:active {
+  cursor: url(../../../images/Cursor.png), auto;
+}
+
+.bayan__item:active .bayan__item-title-text {
+  color: #0000bb;
+}
+.bayan__item:active .bayan__item-image {
+  transform: scale(0.8);
+}
+
+@media screen and (hover: hover) {
+  .bayan__item:hover .bayan__item-image {
+    width: 25vw;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 0.2rem 0.7rem rgba(0, 0, 0, 0.2), 0 1rem 1.2rem rgba(0, 0, 0, 0.2);
+  }
+
+  .bayan__item:hover .bayan__item-title-close-ico {
+    transform: rotate(90deg);
+  }
+}

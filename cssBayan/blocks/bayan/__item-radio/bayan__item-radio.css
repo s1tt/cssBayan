@@ -1,0 +1,47 @@
+.bayan__item-radio {
+  display: none;
+}
+
+.bayan__item-radio:checked ~ .bayan__item-image {
+  width: 70vw;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 0.2rem 0.7rem rgba(0, 0, 0, 0.2), 0 1rem 1.2rem rgba(0, 0, 0, 0.2);
+
+  border: solid #333333;
+  border-width: 0.3rem 0.2rem 0.2rem 0.3rem;
+  border-radius: 6rem 0.2rem 6rem 0.3rem / 0.2rem 6rem 0.2rem 0.3rem;
+  transform: rotate(2deg);
+}
+
+.bayan__item-radio:checked ~ .bayan__item-title {
+  border-radius: 10rem 2rem/0.5rem 1.5rem;
+}
+
+.bayan__item-radio:checked ~ .bayan__item-title .bayan__item-title-text {
+  color: #666666;
+}
+
+.bayan__item-radio:checked ~ .bayan__item-title .bayan__item-title-close-ico {
+  transform: rotate(135deg);
+}
+
+@media screen and (min-width: 568px) and (max-width: 984px) {
+  .bayan__item-radio:checked ~ .bayan__item-image {
+    width: 50vw;
+  }
+
+  .bayan__item-radio:checked ~ .bayan__item-title {
+    border-radius: 10rem 3rem/0.7rem 2rem;
+  }
+}
+
+@media screen and (min-width: 984px) {
+  .bayan__item-radio:checked ~ .bayan__item-image {
+    width: 25vw;
+  }
+
+  .bayan__item-radio:checked ~ .bayan__item-title {
+    border-radius: 10rem 5rem/1.1rem 3.5rem;
+  }
+}

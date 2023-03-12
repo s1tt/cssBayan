@@ -1,0 +1,13 @@
+.bayan__item-title-close-ico {
+  margin-right: 1rem;
+  filter: drop-shadow(0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 0.5));
+  transition: all 0.3s;
+}
+
+@media screen and (min-width: 984px) {
+  .bayan__item-title-close-ico {
+    opacity: 0;
+    width: 3rem;
+    height: 3rem;
+  }
+}

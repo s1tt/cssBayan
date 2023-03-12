@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Comic Sans MS';
+  src: local('Comic Sans MS'), local('ComicSansMS'), url('ComicSansMS.woff2') format('woff2'), url('ComicSansMS.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Comic Sans MS';
+  src: local('Comic Sans MS Bold'), local('ComicSansMS-Bold'), url('ComicSansMS-Bold.woff2') format('woff2'), url('ComicSansMS-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}

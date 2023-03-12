@@ -7,6 +7,9 @@
 .bayan__item:active .bayan__item-title-text {
   color: #0000bb;
 }
+.bayan__item:active .bayan__item-image {
+  transform: scale(0.8);
+}
 
 @media screen and (hover: hover) {
   .bayan__item:hover .bayan__item-image {

@@ -8,7 +8,7 @@
   color: #0000bb;
 }
 
-@media screen and (min-width: 984px) {
+@media screen and (hover: hover) {
   .bayan__item:hover .bayan__item-image {
     width: 25vw;
     margin-top: 1rem;

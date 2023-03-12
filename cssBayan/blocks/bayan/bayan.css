@@ -3,7 +3,7 @@
   max-width: 90vw;
 }
 
-@media screen and (min-width: 984px) {
+@media screen and (hover: hover) {
   .bayan:hover .bayan__item-title-close-ico {
     opacity: 1;
   }

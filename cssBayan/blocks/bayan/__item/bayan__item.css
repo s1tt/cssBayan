@@ -1,11 +1,11 @@
 .bayan__item {
   cursor: pointer;
   display: block;
-  border-top: 0.1rem solid rgba(0, 0, 0, 0.5);
+  transition: all 0.5s;
 }
 
 .bayan__item:active .bayan__item-title-text {
-  color: #6600ff;
+  color: #0000bb;
 }
 
 @media screen and (min-width: 984px) {
@@ -13,6 +13,7 @@
     width: 25vw;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    box-shadow: 0 0.2rem 0.7rem rgba(0, 0, 0, 0.2), 0 1rem 1.2rem rgba(0, 0, 0, 0.2);
   }
 
   .bayan__item:hover .bayan__item-title-close-ico {

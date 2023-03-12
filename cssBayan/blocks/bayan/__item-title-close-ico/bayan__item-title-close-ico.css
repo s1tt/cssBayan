@@ -1,5 +1,6 @@
 .bayan__item-title-close-ico {
-  transform: rotate(45deg);
+  margin-right: 1rem;
+  filter: drop-shadow(0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 0.5));
   transition: transform 0.5s;
 }
 

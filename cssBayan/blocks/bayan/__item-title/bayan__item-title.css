@@ -2,4 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-top: 0.2rem solid #333333;
+  border-radius: 10rem 5rem / 0.2rem 0.5rem;
+  transition: all 0.5s;
 }
